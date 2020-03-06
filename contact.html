@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" href="images/logo.png">
     
 </head>
-<body>
+<body >
     <!-- This is the first step... -->
     <hr>
         <a href="index.html" >Home</a> |
@@ -32,8 +32,8 @@
                 <li>Fictions specialy of literatuer
                     <li>Books that impress me the most:
                         <ul>
-                            <li>One Love by Mr.Hadis Almayhu</li>
-                            <li>Black Magic by Mr. Samuale A.</li>
+                            <li>Born Crime by Trevor Noah</li>
+                            <li>Dertogada by Yismake Worku</li>
                         </ul>
 
                     </li>
@@ -64,7 +64,7 @@
             <td>****</td>
         </tr>
         <tr>
-            <td>Python</td>
+       <td>Python</td>
             <td>***</td>
         </tr>
         <tr>
@@ -78,80 +78,84 @@
     </table>
     <!-- Contact form -->
     <hr>
-    <h3>Leave Your Comment Here</h3>
-    <form>
-        <table cellspacing="10">
-            <tr>
-                <td>
-                    <label for="fName">First Name</label>
-                </td>
-                <td>
-                  <input type="text" name="fName" id="fName" pattern="[A-Za-z]">  
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="lName">Last Name</label>
-                </td>
-                <td>
-                    <input type="text" name="lName" id="lName" pattern="[A-Za-z]">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="email">E-mail</label>
-                </td>
-                <td>
-                    <input type="email" name="email" id="email" pattern="[a-zA-Z0-9.-+*/]+@[a-z0-9.-]+\.[a-z]{2,}">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="password">Password</label>
-                </td>
-                <td>
-                    <input type="password" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="phone">Phone Number</label>
-                </td>
-                <td>
-                    <input type="tel" name="phone" id="phone" pattern="251+[0-9]{9}">
-                </td>
-            </tr>
-            <tr>
+    <section border="1">
+        <h3 align="center" >Leave Your Comment Here</h3>
+        <form>
+            <table cellspacing="10" border="0" align="center" >
+                <tr >
+                    <td>
+                        <label for="fName">First Name</label>
+                    </td>
+                    <td>
+                      <input type="text" name="fName" id="fName" required pattern="[A-Za-z].{1,}">  
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lName">Last Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="lName" id="lName" required pattern="[A-Za-z].{1,}">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">E-mail</label>
+                    </td>
+                    <td>
+                        <input type="email" name="email" id="email" required pattern="[a-zA-Z0-9.-+*/]+@[a-z0-9.-]+\.[a-z]{2,}">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone">Phone Number</label>
+                    </td>
+                    <td>
+                        <input type="tel" name="phone" id="phone" required pattern="251+[0-9]{9}">
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <label for="country">Country</label>
                     </td>
-                <td>
-                    <select name="country" id="country">
-                        <option value="Ethiopia">Ethiopia</option>
-                        <option value="USA">USA</option>
-                    </select>
-                </td>
-                
-            </tr>
-            <tr>
-                <td>
+                    <td>
+                        <select name="country" id="country">
+                            <option value="Ethiopia">Ethiopia</option>
+                            <option value="USA">USA</option>
+                        </select>
+                    </td>
+                    
+                </tr>
+                <tr>
+                        <td></td>
+                    <td>
                         <label for="suggestion">Suggestion</label><br>
-                    <textarea name="suggestion" id="suggestion" cols="30" rows="10"></textarea>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="submit" value="Submit">
-                </td>
-                <td></td>
-            </tr>
-        </table>
-    </form>
-           
+                        <textarea name="suggestion" id="suggestion" cols="30" rows="10"></textarea>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Submit">
+                    </td>
+                    
+                </tr>
+            </table>
+        </form>
+    </section>         
     <hr>
-        <a href="http://www.telegram.com" target="_blank"><img src="images/tg.png" alt="telegram icon"></a>
+        <a href="http://www.telegram.com" target="_blank"><img src="images/tg.png" alt="telegram icon"></a><br>
         <a href="http://www.facebook.com" target="_blank"><img src="images/fb.png" alt="facebook icon"></a>
         <p style="text-align: center;">Developed by Mintesnot B. &copy;20020</p>
-    <hr>
+    <hr>    
 </body>
 </html>
