@@ -1,28 +1,11 @@
 body{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: Arial, Helvetica, sans-serif;
 
 }
-header{
-    background-color: rgb(148, 218, 218);
-    padding: 5px 10px;
-    border: 2px dashed white;
-    
-}
-header img{
-    float: left;
-    width: 20%;
-    height: 20%;
-    margin-right: 2%;
-}
-header p{
-    width: 53%;
-    text-align: justify;
-    margin-bottom: 3%;
-    font-style: italic;
-}
 nav{
     border-bottom: 1px solid;
+    margin-bottom: 5px;
 }
 nav ul li{
     font-size: 1.5rem;
@@ -44,4 +27,58 @@ nav ul li a:hover{
 }
 nav ul li a:visited{
     color: chocolate;
+}
+footer{
+    clear: both;
+    border-top: 1px solid;
+    margin-top: 5px;
+
+}
+/* css for home page */
+header{
+    background-color: rgb(148, 218, 218);
+    padding: 5px 10px;
+    border: 2px dashed white;
+    
+}
+header img{
+    float: left;
+    width: 20%;
+    height: 20%;
+    margin-right: 2%;
+}
+header p{
+    width: 70%;
+    text-align: justify;
+    margin-bottom: 3%;
+    font-style: italic;
+}
+
+/* gallery page css */
+div h3{
+    width: 27%;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    padding: 10px 0px 2px 0px;
+    border-bottom: 2px solid;
+}
+div section  img{
+    width: 29%;
+    height: 350px;
+    border-top: 6px solid green;
+    border-bottom: 6px solid red;
+    border-right: 6px solid purple; 
+    border-left: 6px solid rgb(35, 105, 209);
+    margin: 1.66%;
+    
+    
+}
+div section img:nth-child(1){
+    float: left;
+   
+}
+div section img:nth-child(2){
+    float: left;
 }
