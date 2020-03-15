@@ -136,9 +136,7 @@ nav{
 /* css for question number two */
 #tic_tac{
     width: 500px;
-    margin: 100px auto;
-    
-    
+    margin: 100px auto; 
 }
 #tic_tac div{
     display: inline-block;
@@ -159,4 +157,190 @@ nav{
 }
 #tic_tac div p:nth-child(3){
     border-top: 5px solid;
+}
+
+/* question number three */
+#question3 section{
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 1% 10%;
+}
+#question3 section figure{
+    display: inline-block;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 2rem;
+	/* margin: auto; */
+}
+#ethiopia div{
+    width: 150px;
+    height: 50px;
+    background-image: url(../images/tg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: yellow;
+    border-top: 50px solid red;
+    border-bottom: 50px solid green;
+
+}
+#german div{
+    width: 50px;
+    height: 150px;
+    background-color: yellow;
+    border-left: 50px solid;
+    border-right: 50px solid red;
+    
+}
+#benin div{
+    border-left:70px solid green;
+    
+}
+#benin div div{
+    width: 80px;
+    border-left: 0px;
+    border-bottom: 75px solid red;
+    border-top: 75px solid yellow;
+}
+
+#brazil div:nth-child(1){
+    border-top: 20px solid green;
+    border-bottom: 20px solid green;
+    border-right: 30px solid green;
+    border-left: 30px solid green;
+    margin: 0;
+    
+    
+}
+#brazil div:nth-child(2){
+    position: relative;
+    bottom: 60px;
+    background-image: url(../images/tg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+}
+
+#brazil div p:nth-child(1){
+    margin: 0;
+    padding: 0px;
+    border-bottom: 30px solid yellow;
+    border-left: 50px solid green;
+    border-right: 50px solid green;
+}
+#brazil div p:nth-child(2){
+    margin: 0;
+    padding: 0;
+    border-left: 50px solid green;
+    border-right: 50px solid green;
+    border-top: 30px solid yellow;
+}
+
+#switherland{
+    margin: 0px 0px 0px 65px;
+    padding: 0;
+    position: relative;
+    bottom: 35px;
+}
+#switherland div:nth-child(1){
+    margin: 0;
+    position: relative;
+    top: 140px;
+    left: 70px;
+    width: 20px;
+    padding: 60px 0px;
+    background-color:  white;
+    
+}
+#switherland div:nth-child(2){
+    width: 160px;
+    height: 160px;
+    background-color: red;
+}
+#switherland div:nth-child(3){
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 90px;
+    left: 20px;
+    height: 20px;
+    width: 120px;
+    background-color: white;
+}
+#car{
+    margin: 0px 0px 0px 65px;
+    padding: 0;
+   
+}
+#car div:nth-child(1){
+    position: relative;
+    top: 160px;
+    left: 90px;
+    width: 20px;
+    height: 160px;
+    background-color: red;
+
+}
+#car div:nth-child(2){
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    border-top: 40px solid blue;
+    border-bottom: 40px solid white;
+}
+#car div:nth-child(3){
+    
+    padding: 0;
+    width: 200px;
+    border-top: 40px solid green;
+    border-bottom: 40px solid yellow;
+}
+#car div:nth-child(4){
+    position: relative;
+    bottom: 150px;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/tg.png);
+}
+#japan{
+    margin: 0px 0px 0px 65px;
+    padding: 0;
+    position: relative;
+    bottom: 55px;
+}
+#japan div{
+    width: 160px;
+    height: 160px;
+    border: 1px solid;
+}
+#japan div div{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 60px 60px;
+    background-color: red;
+}
+
+#djbouti{
+    margin: 0px 0px 0px 65px;
+    padding: 0;
+    position: relative;
+    bottom: 25px;
+}
+#djbouti div:nth-child(1){
+    width: 100px;
+    border-top: 80px solid skyblue;
+    border-bottom:  80px solid green;
+    border-left: 100px solid white;
+}
+#djbouti div:nth-child(2){
+    position: relative;
+    bottom: 90px;
+    left: 30px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/tg.png);
+    background-repeat:no-repeat;
+    background-position: center;
 }
