@@ -133,5 +133,30 @@ nav{
 #question1 a:visited{
 	color: gray;
 }
+/* css for question number two */
+#tic_tac{
+    width: 500px;
+    margin: 100px auto;
+    
+    
+}
+#tic_tac div{
+    display: inline-block;
+    width: 30%;
+    height: 80%;
+}
+#tic_tac div p{
+    padding: 50px;
+    
+}
+#tic_tac div:nth-child(2) {
+    border-right: 5px solid;
+    border-left: 5px solid;
 
-
+}
+#tic_tac div p:nth-child(1){
+    border-bottom: 5px solid;
+}
+#tic_tac div p:nth-child(3){
+    border-top: 5px solid;
+}
