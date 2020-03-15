@@ -12,173 +12,69 @@
 </head>
 <body >
     <!-- This is the first step... -->
-    
    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Gallery.html">Gallery</a></li>
-                <li><a href="contact.html">contact</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </nav>
+        <h1>Mintesnot Bezabhi</h1>
+        <h3> Student, Addis Ababa University</h3>
     </header>
-
-   
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="myWorks.html" target="_blank">My Works</a></li> 
+        </ul>
+    </nav>
     
-    <h3>Hobbies and Interest</h3>
-    <ul>
-        <li>Sport: I like to watch and play
-            <ul>
-                <li>Football</li>
-                <li>BasketBall</li>
-                <li>vollyBall</li>
-            </ul>
-        </li>
-        <li>Reading Books
-            <ul>
-                <li>Educational Mostly Programming Books</li>
-                <li>Fictions specialy of literatuer
-                    <li>Books that impress me the most:
-                        <ul>
-                            <li>Born Crime by Trevor Noah</li>
-                            <li>Dertogada by Yismake Worku</li>
-                        </ul>
-
-                    </li>
-                </li>
-                
-            </ul>
-        </li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="15">
-        <tr>
-            <th>Date</th>
-            <th>Job Title</th>
-        </tr>
-        <tr>
-            <td>2018-2020</td>
-            <td>Software Trany</td>
-        </tr>
-    </table>
-
-    <hr>
-    <!-- This is top skills table -->
-    <h3>Top Skills</h3>
-    <table cellspacing="10">
-        <tr>
-            <td>Java Programming</td>
-            <td>****</td>
-        </tr>
-        <tr>
-       <td>Python</td>
-            <td>***</td>
-        </tr>
-        <tr>
-            <td>Mobile Programming</td>
-            <td>**</td>
-        </tr>
-        <tr>
-            <td>Web Development</td>
-            <td>**</td>
-        </tr>
-    </table>
     <!-- Contact form -->
-    <hr>
-    <section border="1">
-        <h3 align="center" >Leave Your Comment Here</h3>
-        <form>
-            <table>
-                <tr>
-                    <td>
-                        <table cellspacing="10">
-                            <tr >
-                                <td>
-                                    <label for="fName">First Name</label>
-                                </td>
-                                <td>
-                                  <input type="text" name="fName" id="fName" required pattern="[A-Za-z].{1,}">  
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label for="lName">Last Name</label>
-                                </td>
-                                <td>
-                                    <input type="text" name="lName" id="lName" required pattern="[A-Za-z].{1,}">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label for="email">E-mail</label>
-                                </td>
-                                <td>
-                                    <input type="email" name="email" id="email" required pattern="[a-zA-Z0-9.-+*/]+@[a-z0-9.-]+\.[a-z]{2,}">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label for="password">Password</label>
-                                </td>
-                                <td>
-                                    <input type="password" name="password" id="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label for="phone">Phone Number</label>
-                                </td>
-                                <td>
-                                    <input type="tel" name="phone" id="phone" required pattern="251+[0-9]{9}">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label for="country">Country</label>
-                                </td>
-                                <td>
-                                    <select name="country" id="country">
-                                        <option value="Ethiopia">Ethiopia</option>
-                                        <option value="USA">USA</option>
-                                    </select>
-                                </td>
-                                
-                            </tr>
-                            <tr>
-                                    <td></td>
-                                <td>
-                                    <label for="suggestion">Suggestion</label><br>
-                                    <textarea name="suggestion" id="suggestion" cols="40" rows="6"></textarea>
-                                </td>
-                                
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>
-                                    <input type="submit" value="Submit">
-                                </td>
-                                
-                            </tr>
-                           
-                               
-                        </table>
-                    </td>
-                    <td>
-                          <div class="mapouter"><div class="gmap_canvas"><iframe width="800" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20Ababa%20Institute%20of%20Technolgy&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="1" scrolling="no" marginheight="0" marginwidth="5"></iframe><a href="https://www.online-timer.net">timrer</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:1000px;}</style>
-                     </div>
-                    </td>
-                </tr>
-            </table>
-            
-        </form>
 
+    <section>
+        <h3>Leave Your Comment Here</h3>
+        <form>
+            <div>
+                <label for="fName">First Name</label>
+                <input type="text" name="fName" id="fName">
+            </div>
+            <div>
+                <label for="lName">Last Name</label>
+                <input type="text" name="lName" id="lName">
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="phone">Phone Nubmer</label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+            <div>
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="ethiopia">Ethiopia</option>
+                    <option value="us">USA</option>
+                </select>
+            </div>
+            <div>
+                <label for="comment">Suggestion</label>
+                <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>  
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe width="800" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20Ababa%20Institute%20of%20Technolgy&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="1" scrolling="no" marginheight="0" marginwidth="5"></iframe>
+                <a href="https://www.online-timer.net">timrer</a>
+            </div>
+            <style>.mapouter{position:relative;text-align:right;height:400px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:1000px;}</style>
+        </div>
     </section>         
-    <hr>
+    <footer>
         <a href="http://www.telegram.com" target="_blank"><img src="images/tg.png" alt="telegram icon"></a><br>
         <a href="http://www.facebook.com" target="_blank"><img src="images/fb.png" alt="facebook icon"></a>
-        <p style="text-align: center;">Developed by Mintesnot B. &copy;2020</p>
-    <hr>    
+        <p style="text-align: center;">Developed by Mintesnot B. &copy;2020</p>    
+    </footer>
+    
 </body>
 </html>
