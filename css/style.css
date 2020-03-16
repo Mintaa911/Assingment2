@@ -1,17 +1,23 @@
 body{
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 nav{
     border-bottom: 1px solid;
     margin-bottom: 5px;
+    margin-left: 0;
 }
 nav ul li{
-    font-size: 1.5rem;
     font-weight: bold;
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 0 0 2px;
+}
+@media(min-width:1100px){
+    nav ul li{
+        font-size: 1.5rem;
+        padding: 0 10px;
+    }
 }
 nav ul li a{
     text-decoration: none;
@@ -47,13 +53,65 @@ header img{
     height: 20%;
     margin-right: 2%;
 }
+header h1{text-transform: uppercase;}
+header h2{text-transform: capitalize;}
 header p{
     width: 70%;
     text-align: justify;
-    margin-bottom: 3%;
+    margin: 3% auto;
     font-style: italic;
 }
+section article h3{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+@media(min-width:1100px){
+    section{
+        display: flex;
+        align-items: flex-end;
+    }
+    section article div{
+        display: flex;
+        justify-content: space-between;
+           
+    }
+}
+section article{
+    padding: 20px 10px 20px 10px;
+    box-sizing: border-box;
+    flex-basis: 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section article:nth-child(1){
+    background-color: #c0dbe2;
+    flex: 1.5;
+}
+section article:nth-child(2){
+    background-color: #cdf1c3;
+    flex: 1.5;
+}
+section article:nth-child(3){
+    background-color: #ccb9da;
+    flex: 1;
+}
+section article:nth-child(1) ul li{
+    text-transform: capitalize;
+}
 
+section article div div{
+    padding: 5px;
+    flex: 1;
+    box-sizing: border-box;
+    flex-basis: 40%;
+}
+section article div div:nth-child(1){
+    text-transform: capitalize;
+    flex: 1;
+}
+section article div div:nth-child(2){
+    text-transform: uppercase;
+    flex: 2;
+}
 /* gallery page css */
 div h3{
     width: 27%;
