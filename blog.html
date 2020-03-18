@@ -8,84 +8,84 @@
     
 
 </head>
-<body>
-    
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Gallery.html">Gallery</a></li>
-                <li><a href="contact.html">contact</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <div id="content">
-        <!-- first blog -->
+<body id="blog">
+    <h1>Mintesnot Bezabhi</h1>
+  
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="myWorks.html">My Works</a></li> 
+        </ul>
+    </nav>
+    <div >
         <section>
-            <p class="title">My First Post</p>
+            <h3 class="title">relative size and responsive web page</h3>
             <article>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, a et. Natus laborum fuga placeat id fugiat deserunt similique quia delectus, aliquid quidem et!
+                    One of the concering topics in web developing fields is the size of elements in styling. How size
+                    is measured in css styling, and its relation with the physical device size is a little bit confusing.
+                    Width and height is measured in css pixel that has a suffix PX in styling. The physical device or the
+                    browser width is also measured in pixel. so, the question is, are they the same measurement scales?
                 </p>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nostrum reiciendis eum aliquid sit id, ea magni inventore non atque, ducimus repellat, esse amet.
+                   when pixels are used to specify a width of an element, it has some issues concerned with screen sizes.
+                   pixel measurement is static does not change with different screen size. So, user interaction on different
+                   devices become more difficult to manage. The most priorety in web developing is given to user satisfaction.
+                   Using pixels are not recommended for width value. Inorder to solve this problems relative size are the
+                   best choices. There are different relative size measurements (em, rem, %). em is font size relative to the
+                   container of the element. rem is font size relative to the viewport of the device. percent means width or 
+                   height of the viewport expression. All three relative size are not static as pixel, they change with the
+                   device screen.
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, a et. Natus laborum fuga placeat id fugiat deserunt similique quia delectus, aliquid quidem et!
+                   when em is used as relative font size for an element, the font size get larger if the em is greater than One
+                   otherwise is dimenished relative to the container element font size. Although, rem is not dependent on the 
+                   container that is holding the element. It is only relative to the browser font size.
                 </p>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nostrum reiciendis eum aliquid sit id, ea magni inventore non atque, ducimus repellat, esse amet.
+                    The percent relative size measurement is for width and height of the element. The size is relative to the 
+                    element that holds it. So, if body width is set to 900px and section inside the body given eighty percent
+                    width value the section width in pixel is going to be seven hundred twenty pixels. when the zoom is hundred
+                    percent the css pixel and device pixels are the same. If user zoomed in the css pixel overlaps several 
+                    device pixles. Also, user zooming out the device pixel overlaps several pixels of css.
                 </p>
             </article>
-            <p class="date">March 10 , 2020 : 2:35pm</p>
+            <p class="date">March 18 , 2020 : 7:00pm</p>
         </section>
         <!-- second post -->
         <section>
-            <p class="title">My Second Post</p>
+            <h3 class="title">font size interpration of the browser</h3>
             <article>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, a et. Natus laborum fuga placeat id fugiat deserunt similique quia delectus, aliquid quidem et!
-                </p>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nostrum reiciendis eum aliquid sit id, ea magni inventore non atque, ducimus repellat, esse amet.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, a et. Natus laborum fuga placeat id fugiat deserunt similique quia delectus, aliquid quidem et!
-                </p>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nostrum reiciendis eum aliquid sit id, ea magni inventore non atque, ducimus repellat, esse amet.
+                    First of all what does it means font size? <br>
+                    Font size css property denotes that a font is allocated the amount of space specified; it does not have to 
+                    have to make use of all of this allocated space. This space is the distance between the top of the tallest
+                    character to the bottom of the descender. The browser sixteen pixel means it is the default height of a
+                    single character. A css font size property value of 200px means the character in that element tag is going
+                    to have a height of 200px. Although the height is not exactly 200px, the calculation of the distance dose 
+                    not includ the descender part. Which means the height is going to be shorter than 200px. 
+
                 </p>
             </article>
-            <p class="date">March 10 , 2020 : 2:35pm</p>
+            <p class="date">March 18 , 2020 : 7:30pm</p>
         </section>
         <!-- Third post -->
         <section>
-            <p class="title">My Third Post</p>
+            <h2 class="title">My Third Post</h2>
             <article>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, a et. Natus laborum fuga placeat id fugiat deserunt similique quia delectus, aliquid quidem et!
-                </p>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nostrum reiciendis eum aliquid sit id, ea magni inventore non atque, ducimus repellat, esse amet.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, a et. Natus laborum fuga placeat id fugiat deserunt similique quia delectus, aliquid quidem et!
-                </p>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nostrum reiciendis eum aliquid sit id, ea magni inventore non atque, ducimus repellat, esse amet.
-                </p>
+                
             </article>
             <p class="date">March 10 , 2020 : 2:35pm</p>
         </section>
     </div>
-
-    <hr>
-        <a href="http://www.telegram.com" target="_blank"><img src="images/tg.png" alt="telegram icon"></a><br>
-        <a href="http://www.facebook.com" target="_blank"><img src="images/fb.png" alt="facebook icon"></a>
+    <footer>
         <p style="text-align: center;">Developed by Mintesnot B. &copy;2020</p>
-    <hr>
+    </footer>
+    
+
 
 </body>
 </html>
