@@ -10,52 +10,48 @@
     
     
 </head>
-<body >
-    <!-- This is the first step... -->
-   <header>
-        <h1>Mintesnot Bezabhi</h1>
-        <h3> Student, Addis Ababa University</h3>
-    </header>
+<body id="contact" >
+    <h1 style="text-align: center; text-transform: uppercase;">Mintesnot Bezabhi</h1>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="Gallery.html">Gallery</a></li>
             <li><a href="contact.html">contact</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li><a href="myWorks.html" target="_blank">My Works</a></li> 
+            <li><a href="myWorks.html" >My Works</a></li> 
         </ul>
     </nav>
     
     <!-- Contact form -->
-
     <section>
-        <h3>Leave Your Comment Here</h3>
+        
         <form>
+            <h3>leave your comment hear</h3>
             <div>
-                <label for="fName">First Name</label>
-                <input type="text" name="fName" id="fName">
+                <label for="fName">first name</label>
+                <input type="text" name="fName" id="fName" required pattern="[A-Za-z].{1,}">
             </div>
             <div>
-                <label for="lName">Last Name</label>
-                <input type="text" name="lName" id="lName">
+                <label for="lName">last name</label>
+                <input type="text" name="lName" id="lName" required pattern="[A-Za-z].{1,}">
             </div>
             <div>
-                <label for="email">E-mail</label>
-                <input type="email" name="email" id="email">
+                <label for="phone">phone nubmer</label>
+                <input type="tel" name="phone" id="phone"  required pattern="251+[0-9]{9}">
+            </div>  
+            <div>
+                <label for="email">e-mail</label>
+                <input type="email" name="email" id="email" required pattern="[a-zA-Z0-9.-+*/]+@[a-z0-9.-]+\.[a-z]{2,}">
             </div>
             <div>
-                <label for="phone">Phone Nubmer</label>
-                <input type="tel" name="phone" id="phone">
-            </div>
-            <div>
-                <label for="country">Country</label>
+                <label for="country">country</label>
                 <select name="country" id="country">
                     <option value="ethiopia">Ethiopia</option>
                     <option value="us">USA</option>
                 </select>
             </div>
             <div>
-                <label for="comment">Suggestion</label>
+                <label for="comment">suggestion</label> <br>
                 <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
             </div>
             <div>
@@ -64,15 +60,13 @@
         </form>  
         <div class="mapouter">
             <div class="gmap_canvas">
-                <iframe width="800" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20Ababa%20Institute%20of%20Technolgy&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="1" scrolling="no" marginheight="0" marginwidth="5"></iframe>
+                <iframe width="500" height="1000" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20Ababa%20Institute%20of%20Technolgy&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="1" scrolling="no" marginheight="0" marginwidth="5"></iframe>
                 <a href="https://www.online-timer.net">timrer</a>
             </div>
-            <style>.mapouter{position:relative;text-align:right;height:400px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:1000px;}</style>
+            <style>.mapouter{height:400px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:1000px;}</style>
         </div>
     </section>         
     <footer>
-        <a href="http://www.telegram.com" target="_blank"><img src="images/tg.png" alt="telegram icon"></a><br>
-        <a href="http://www.facebook.com" target="_blank"><img src="images/fb.png" alt="facebook icon"></a>
         <p style="text-align: center;">Developed by Mintesnot B. &copy;2020</p>    
     </footer>
     
