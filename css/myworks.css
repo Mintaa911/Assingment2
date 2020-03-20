@@ -11,7 +11,10 @@ nav ul li a{
     text-decoration: none;
     border-bottom: 4px solid aqua;
     border-right: 4px solid aquamarine;
-    box-shadow: 5px 5px 5px gold;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove{
+    50%{box-shadow: 5px 5px 20px purple;}
 }
 nav ul li a:link{
     border-right: 5px solid white;
@@ -162,21 +165,22 @@ nav{
 /* question number three */
 #question3 section{
     border: 1px solid gray;
-    margin: 10px;
-    padding: 1% 10%;
+    margin: auto;
+    padding: 1% 5%;
 }
 #question3 section figure{
     display: inline-block;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-weight: bold;
     font-size: 2rem;
-	/* margin: auto; */
+   
+	
 }
 #ethiopia div{
     width: 150px;
     height: 50px;
-    background-image: url(../images/tg.png);
+    background-image: url(../images/ethiopia.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: yellow;
@@ -185,15 +189,15 @@ nav{
 
 }
 #german div{
-    width: 50px;
+    width: 60px;
     height: 150px;
     background-color: yellow;
-    border-left: 50px solid;
-    border-right: 50px solid red;
+    border-left: 60px solid;
+    border-right: 60px solid red;
     
 }
 #benin div{
-    border-left:70px solid green;
+    border-left:80px solid green;
     
 }
 #benin div div{
@@ -202,45 +206,35 @@ nav{
     border-bottom: 75px solid red;
     border-top: 75px solid yellow;
 }
-
-#brazil div:nth-child(1){
-    border-top: 20px solid green;
-    border-bottom: 20px solid green;
-    border-right: 30px solid green;
-    border-left: 30px solid green;
-    margin: 0;
-    
-    
-}
-#brazil div:nth-child(2){
+#uae>div{
+    display: inline-block;
     position: relative;
-    bottom: 60px;
-    background-image: url(../images/tg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 10px;
+    bottom: 30px;
 }
+#uae>div:nth-child(1){
+    height: 150px;
+    box-sizing: border-box;
+    border-left: 30px solid red;
+   
+}
+#uae>div:nth-child(2){
+    position: relative;
+    left: -8px;
+    height: 150px;
+    width: 150px;
+    box-sizing: border-box;
+    border-top: 50px solid green;
+    border-bottom: 50px solid;
+    border-right: 1px solid;
+    padding: 25px 0px;
 
-#brazil div p:nth-child(1){
-    margin: 0;
-    padding: 0px;
-    border-bottom: 30px solid yellow;
-    border-left: 50px solid green;
-    border-right: 50px solid green;
-}
-#brazil div p:nth-child(2){
-    margin: 0;
-    padding: 0;
-    border-left: 50px solid green;
-    border-right: 50px solid green;
-    border-top: 30px solid yellow;
 }
 
 #switherland{
-    margin: 0px 0px 0px 65px;
+    /* margin: 0px 0px 0px 15px; */
     padding: 0;
     position: relative;
-    bottom: 35px;
+    bottom: 40px;
 }
 #switherland div:nth-child(1){
     margin: 0;
@@ -267,47 +261,23 @@ nav{
     width: 120px;
     background-color: white;
 }
-#car{
-    margin: 0px 0px 0px 65px;
-    padding: 0;
-   
-}
-#car div:nth-child(1){
+#gabon>div{
+    width: 160px;
+    box-sizing: border-box;
+    border-top: 53px solid green;
+    padding: 27px 0px;
+    border-bottom: 53px solid blue;
+    background-color: yellow;
     position: relative;
-    top: 160px;
-    left: 90px;
-    width: 20px;
-    height: 160px;
-    background-color: red;
+    bottom: 60px;
+}
 
-}
-#car div:nth-child(2){
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    border-top: 40px solid blue;
-    border-bottom: 40px solid white;
-}
-#car div:nth-child(3){
-    
-    padding: 0;
-    width: 200px;
-    border-top: 40px solid green;
-    border-bottom: 40px solid yellow;
-}
-#car div:nth-child(4){
-    position: relative;
-    bottom: 150px;
-    left: 20px;
-    width: 20px;
-    height: 20px;
-    background-image: url(../images/tg.png);
-}
+
 #japan{
     margin: 0px 0px 0px 65px;
     padding: 0;
     position: relative;
-    bottom: 55px;
+    bottom: 60px;
 }
 #japan div{
     width: 160px;
@@ -336,11 +306,64 @@ nav{
 }
 #djbouti div:nth-child(2){
     position: relative;
-    bottom: 90px;
-    left: 30px;
-    width: 30px;
-    height: 30px;
-    background-image: url(../images/tg.png);
+    bottom: 100px;
+    left: 25px;
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/red.png);
+    background-size: 40px;
     background-repeat:no-repeat;
     background-position: center;
+}
+#mali>div{
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border-left: 50px solid green;
+    border-right: 50px solid red;
+    background-color: yellow;
+
+}
+#italy>div{
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border-left: 50px solid green;
+    border-right: 50px solid red;
+    background-color: white;
+}
+#england>div:nth-child(1){
+    position: relative;
+    left: 70px;
+    top: 130px;
+    height: 130px;
+    width: 25px;
+    box-sizing: border-box;
+    background-color: red;
+}
+#england>div:nth-child(2){
+    width: 180px;
+    height: 130px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid;
+    
+    
+}
+
+#england>div:nth-child(3){
+    position: relative;
+    bottom: 85px;
+    height: 25px;
+    width: 180px;
+    box-sizing: border-box;
+    background-color: red;
+}
+#colombia>div{
+    width: 180px;
+    box-sizing: border-box;
+    padding: 20px 0px;
+    border-top: 70px solid yellow;
+    border-bottom: 40px solid red;
+    background-color: darkblue;
 }
